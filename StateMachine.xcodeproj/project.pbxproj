@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		FA76470A1D3BCAA100F0E4F4 /* StateMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7647091D3BCAA100F0E4F4 /* StateMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7647131D3BCAD800F0E4F4 /* ObjectState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647111D3BCAD800F0E4F4 /* ObjectState.swift */; };
+		FA7647141D3BCAD800F0E4F4 /* ObjectTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647121D3BCAD800F0E4F4 /* ObjectTransition.swift */; };
+		FA7647181D3BCAEC00F0E4F4 /* Digraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647151D3BCAEC00F0E4F4 /* Digraph.swift */; };
+		FA7647191D3BCAEC00F0E4F4 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647161D3BCAEC00F0E4F4 /* Edge.swift */; };
+		FA76471A1D3BCAEC00F0E4F4 /* StateMachineAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647171D3BCAEC00F0E4F4 /* StateMachineAnalyzer.swift */; };
+		FA7647201D3BCB0500F0E4F4 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76471B1D3BCB0500F0E4F4 /* Transition.swift */; };
+		FA7647211D3BCB0500F0E4F4 /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76471C1D3BCB0500F0E4F4 /* TransitionDelegate.swift */; };
+		FA7647221D3BCB0500F0E4F4 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76471D1D3BCB0500F0E4F4 /* StateMachine.swift */; };
+		FA7647231D3BCB0500F0E4F4 /* StateMachineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76471E1D3BCB0500F0E4F4 /* StateMachineDelegate.swift */; };
+		FA7647241D3BCB0500F0E4F4 /* ObjectStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA76471F1D3BCB0500F0E4F4 /* ObjectStateMachine.swift */; };
+		FA76472A1D3BCB1000F0E4F4 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7647291D3BCB1000F0E4F4 /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA7647061D3BCAA100F0E4F4 /* StateMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StateMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7647091D3BCAA100F0E4F4 /* StateMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
 		FA76470B1D3BCAA100F0E4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7647111D3BCAD800F0E4F4 /* ObjectState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectState.swift; sourceTree = "<group>"; };
+		FA7647121D3BCAD800F0E4F4 /* ObjectTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectTransition.swift; sourceTree = "<group>"; };
+		FA7647151D3BCAEC00F0E4F4 /* Digraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digraph.swift; sourceTree = "<group>"; };
+		FA7647161D3BCAEC00F0E4F4 /* Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		FA7647171D3BCAEC00F0E4F4 /* StateMachineAnalyzer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachineAnalyzer.swift; sourceTree = "<group>"; };
+		FA76471B1D3BCB0500F0E4F4 /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		FA76471C1D3BCB0500F0E4F4 /* TransitionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionDelegate.swift; sourceTree = "<group>"; };
+		FA76471D1D3BCB0500F0E4F4 /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		FA76471E1D3BCB0500F0E4F4 /* StateMachineDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachineDelegate.swift; sourceTree = "<group>"; };
+		FA76471F1D3BCB0500F0E4F4 /* ObjectStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectStateMachine.swift; sourceTree = "<group>"; };
+		FA7647291D3BCB1000F0E4F4 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +68,17 @@
 		FA7647081D3BCAA100F0E4F4 /* StateMachine */ = {
 			isa = PBXGroup;
 			children = (
+				FA7647111D3BCAD800F0E4F4 /* ObjectState.swift */,
+				FA7647121D3BCAD800F0E4F4 /* ObjectTransition.swift */,
+				FA76471B1D3BCB0500F0E4F4 /* Transition.swift */,
+				FA76471C1D3BCB0500F0E4F4 /* TransitionDelegate.swift */,
+				FA7647291D3BCB1000F0E4F4 /* State.swift */,
+				FA76471D1D3BCB0500F0E4F4 /* StateMachine.swift */,
+				FA76471E1D3BCB0500F0E4F4 /* StateMachineDelegate.swift */,
+				FA76471F1D3BCB0500F0E4F4 /* ObjectStateMachine.swift */,
+				FA7647151D3BCAEC00F0E4F4 /* Digraph.swift */,
+				FA7647161D3BCAEC00F0E4F4 /* Edge.swift */,
+				FA7647171D3BCAEC00F0E4F4 /* StateMachineAnalyzer.swift */,
 				FA7647091D3BCAA100F0E4F4 /* StateMachine.h */,
 				FA76470B1D3BCAA100F0E4F4 /* Info.plist */,
 			);
@@ -131,6 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7647201D3BCB0500F0E4F4 /* Transition.swift in Sources */,
+				FA7647131D3BCAD800F0E4F4 /* ObjectState.swift in Sources */,
+				FA7647241D3BCB0500F0E4F4 /* ObjectStateMachine.swift in Sources */,
+				FA7647181D3BCAEC00F0E4F4 /* Digraph.swift in Sources */,
+				FA7647221D3BCB0500F0E4F4 /* StateMachine.swift in Sources */,
+				FA7647191D3BCAEC00F0E4F4 /* Edge.swift in Sources */,
+				FA7647211D3BCB0500F0E4F4 /* TransitionDelegate.swift in Sources */,
+				FA7647141D3BCAD800F0E4F4 /* ObjectTransition.swift in Sources */,
+				FA76472A1D3BCB1000F0E4F4 /* State.swift in Sources */,
+				FA7647231D3BCB0500F0E4F4 /* StateMachineDelegate.swift in Sources */,
+				FA76471A1D3BCAEC00F0E4F4 /* StateMachineAnalyzer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
