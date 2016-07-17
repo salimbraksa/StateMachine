@@ -3,11 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.1"
   s.summary      = "Simple State Machine written in Swift"
   s.description  = <<-DESC
-    The UYLPasswordManager class provides a simple wrapper around Apple Keychain
-    Services on iOS devices. The class is designed to make it quick and easy to
-    create, read, update and delete keychain items. Keychain groups are also
-    supported as is the ability to set the data migration and protection attributes
-    of keychain items.
+    The StateMachine class provides a set of states and transitions that describe the lifecycle of an object.  
     DESC
   s.homepage         = "https://github.com/salimbraksa/StateMachine"
   s.license          = { :type => "MIT", :file => "LICENSE" }
