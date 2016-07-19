@@ -8,7 +8,7 @@
 
 import UIKit
 
-typealias ViewStateMachine = ObjectStateMachine<UIView>
+public typealias ViewStateMachine = ObjectStateMachine<UIView>
 
 public class ObjectStateMachine<T: AnyObject>: StateMachine {
     
